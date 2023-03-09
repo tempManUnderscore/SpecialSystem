@@ -1,0 +1,19 @@
+PARENT WINDOWS EXAMPLE
+
+
+
+ORDER WINDOW
+        private void btnGoBasket_Click(object sender, RoutedEventArgs e)
+        {
+            this.Visibility = Visibility.Hidden;
+            Basket openBask = new Basket(theBasketID,this);
+            openBask.Show();
+        }
+        
+BASKET WINDOW
+//line above is at the top of the .cs file
+        private Window parent;
+        public Basket(int theBasketID, Window parent)
+        {
+
+            this.parent = parent;
