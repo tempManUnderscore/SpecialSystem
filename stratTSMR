@@ -1,0 +1,37 @@
+Test Strategy Summary
+The scope of the platform’s testing phase extends to all its programmatical aspects (methods and functions) that function (collectively) as its back end. The Agile methodology will be used as a basis for the testing segment of the platform’s development.
+Furthermore, frontend elements will also receive a similar iterative development process. Basic user interface structure will be implemented (as its first iteration) and will serve as the backbone of algorithmic display for the platform. Because only the basic structure of the frontend of the platform is needed, its development will be reserved for the final stages of the development process. Functionality and the testing of the platform algorithms is more critical in this strategy.
+Agile Iterative Workflow
+Plan requirements of iteration.
+Development of requirements (i.e., platform functionality).
+Test developments.
+Decide next iteration’s changes (if any need to be made) based off test results.
+Each programmatical aspect will be tested by the end of each testing phase. Core functionality of methods or functions will need to be established for (any) testing to take place (iteration 0).
+The testing process will involve a variety of different test types. A summary of what will roughly happen testing-wise each platform iteration is featured below.
+1. Develop new platform version to the point where it meets the previous version’s needs.
+2. Test independent algorithmic behaviour. For each of these algorithms (in order):
+  Smoke tests – basic, quick tests to ensure basic, core algorithmic functionality.
+  Unit tests – identification of any breaking changes in algorithm
+  Functional tests – verify outputs (of actions) are working. Focus on specific client requirement values needed.
+  End-to-end tests (used on a few key processes, i.e., driver connections to URLs on web scrapers) – verifies the user workflow through replication of algorithm usage in a user environment.
+  Performance tests – assesses the performance of an algorithm to check whether changes need to be made to handle higher traffic, etc. 
+3. Test integrated algorithmic behaviour (explains the need for developing all versions of algorithms first) through integration testing – verifies different platform functions work well together.
+
+Video evidence of each test will be provided – results will be able to be viewed in them. This will serve as documentation.
+Additional written documentation may be produced as further explanations to test results, changes needed to be made as a result, etc.
+
+The objectives of testing will be ensuring:
+-correct valuation of variables
+-well-defined outputs and inputs
+-effectiveness of (algorithmic) components
+-functionality of (algorithmic) components
+-meeting client requirements (as an overall objective)
+-finiteness to algorithmic components
+-expected integrated component functionality
+-final platform frontend components are of a satisfactory standard to the client
+Suspension Criteria
+The suspension criterion in this test strategy is the success of the current test of the current individual platform part. Testing is suspended if, during any of these first 4 tests (smoke, unit, functional, end-to-end) fail – the component will not function otherwise, which will prevent integration testing at later stages. The tests that come after are not so important and are more for future platform development to enhance the user experience. Suspension criteria is 100%, as only 1 module is tested at a time with one testing type.
+Exit Criteria
+Exit criteria of testing is marked as the success of at least 4 test types executed (in order) – 80% of tests need to be marked as successful.
+Testing Environment
+The testing environment will be the actual platform, as the backbone of its frontend will also be developed. Because of this, user inputs can be initiated providing authentic user conditions for more accurate test results.
